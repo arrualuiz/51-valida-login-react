@@ -1,0 +1,67 @@
+Tecnologias Para Desenvolvimento Web (11100010566_20261_21)
+
+Tecnologias Para Desenvolvimento Web (11100010566_20261_21) - Orientação - Atividade Somativa 1 - Tecnologias Para Desenvolvimento Web (11100010566_20261_21)
+1Avisos
+
+Mensagens
+
+Grupos
+
+Grade de Notas
+
+Apoio acadêmico
+Boa noite, LUIZ FELIPE ARRUA CASTILHO!
+Que bom te ver novamente. O que vamos estudar hoje?
+
+Resumo da disciplina:
+
+Progresso da disciplina
+6%
+concluída
+Semana 6 - Webconferencia Encontro On-line - TDW
+Turma, em 18/06/2026, quinta-feira, às 19h30 ocorrerá o nosso 3º Encontro On-line. Caso vocês não possam participar a grav
+
+Orientação - Atividade Somativa 1
+Na semana 4, foi apresentado o conteúdo de array em React, fechando assim o conteúdo da criação de um único componente. Com este conhecimento, você deverá realizar uma atividade somativa com todos os conteúdos vistos até o momento.
+
+Com base no conhecimento obtido durante as 4 primeiras semanas, crie uma nova aplicação em React exatamente igual da figura abaixo. No componente, você deverá colocar um título de Login, 2 inputs (e-mail e senha), um botão de validação (Acessar) e uma label. Ao clicar no botão “Acessar”, deverá verificar se o campo de e-mail é igual a “eduardo.lino@pucpr.br” e senha igual a “123456” (você poderá colocar seu e-mail e senha desejado, o importante é a lógica da construção da aplicação). Caso os valores sejam iguais aos valores do enunciado, deverá ser mostrado a mensagem “Acessado com sucesso!” na label abaixo do botão. Caso algum dos dois campos estejam com valores diferentes do enunciado, deverá ser mostrado a mensagem “Usuário ou senha incorretos!”.
+
+Descrição da imagem não disponível
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Ao final, para a entrega, compacte em .zip a pasta raíz do projeto. Repare que a subpastas node_modules é muito grande, assim sendo evite de compactar a pasta raíz do projeto com ela.
+
+Assim o seu Professor será capaz de importar o seu projeto e realizar a sua análise.
+
+
+Entrega da Atividade Somativa 1 (Semana 4)
+Prazo de envio
+22/06/2026 - 23:59
+Tentativas
+0/2
+Tentativa válida
+Maior nota
+Vale
+10 pontos
+Chegou o momento de efetivar a entrega da sua atividade.
+
+Fique atento ao prazo final dessa atividade, lembrando que: 
+
+O horário final de entrega desta atividade está padronizado para 23:59:00 (vinte e três horas, cinquenta e nove minutos e zero segundo).  Portanto, o sistema não aceitará entregas a partir de 23:59:01 (vinte e três horas, cinquenta e nove minutos e um segundo).
+A atividade ficará indisponível para entrega após a conclusão do prazo, não sendo mais possível visualizá-la aqui. 
+Atenção!
+
+No momento do envio da sua atividade, verifique se o formato e a extensão do arquivo estão de acordo com os critérios aceitos pela plataforma.
+Lembramos que é de sua responsabilidade a integridade e execução do arquivo. Caso o arquivo entregue esteja corrompido ou impossibilitado de execução o mesmo não será aceito.

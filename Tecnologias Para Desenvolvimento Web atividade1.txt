@@ -1,0 +1,1042 @@
+Tecnologias Para Desenvolvimento Web (11100010566_20261_21)
+
+Avisos
+
+Mensagens
+
+Grupos
+
+Grade de Notas
+
+Apoio acadêmico
+Boa noite, LUIZ FELIPE ARRUA CASTILHO!
+Que bom te ver novamente. O que vamos estudar hoje?
+
+Resumo da disciplina:
+
+Progresso da disciplina
+8%
+concluída
+
+
+Dica do Professor: Criação e formatação de páginas web com CSS
+Assista ao vídeo para conhecer o que é CSS, as regras de estilo, os tipos de seletores e a formatação das cores em CSS.
+
+
+
+
+​​​​​​​
+
+
+Marcar como concluído
+Dica do Professor: Projeto de interface com o usuário
+​​​​​​​O User Experience Design – ou design da experiência do usuário – se preocupa com o ponto de contato de um produto/serviço, com as pessoas. Este produto/serviço pode ser um website, um aplicativo, uma máquina, um dispositivo móvel, ponto de venda, entre outras plataformas de interação. É um fato que a experiência do usuário com uma marca, produto ou serviço, é muito pessoal e cada pessoa percebe a interação de uma maneira diferente.
+
+Assim, o UX trabalha para atingir positivamente o maior número de pessoas possíveis, com base em pesquisas e testes constantes. Veja na dica do professor algumas orientações para o projeto de interface com o usuário.
+
+
+
+
+Marcar como concluído
+
+
+
+Para começar - informações gerais da disciplina!
+Que bom ter você aqui!
+Olá, seja muito bem-vindo! 
+
+Esta área, chamada Parada obrigatória,traz as informações prévias da sua disciplina, essenciais para que você entenda quais temáticas serão abordadas e o que você desenvolverá ao longo desta trilha de aprendizagem. Ou seja, é uma rota inicial, que te ambienta na disciplina, antes mesmo de você iniciar cada semana de estudo.
+Por isso, #FicaDica...consuma todas as informações para ter um contexto prévio de tudo que verá daqui pra frente!
+
+A disciplina...em linhas gerais!
+Bem-vindo à disciplina de Tecnologias para Desenvolvimento Web! 
+
+A ideia desta disciplina é apresentar os principais conceitos e práticas referentes à biblioteca React e plataforma Firebase para a persistência de dados. Estudaremos diferentes formas de representar e armazenar informação em um serviço de nuvem, incluindo dados de cadastro, autenticação, upload de arquivos, entre outros, tornando-o capaz de construir grandes aplicações web com o uso de uma das tecnologias que mais crescem no mercado de trabalho.  
+
+Durante a disciplina, estudaremos a construção de componentes, classes, como incluir CSS nos componentes, persistência de dados em banco de dados NoSQL, criação de componentes dinâmicos e banco de dados RealTime. Se você não conhece nenhum desses conceitos e práticas, não se preocupe; a ideia aqui é ensinar todos esses conteúdos desde o início. Então, pegue o seu computador e vamos desenvolver nossas aplicações web com React e Firebase!  
+
+Vamos começar?
+
+Bons estudos!
+
+Durante o processo de criação, análise e validação de nossas disciplinas, podemos utilizar recursos de Inteligência Artificial como apoio pontual a algumas etapas. Ainda assim, todas as decisões e validações são conduzidas por nossa equipe, assegurando a qualidade dos materiais, o alinhamento aos resultados de aprendizagem e a adequação aos contextos específicos de cada disciplina.
+
+Conheça o professor-autor
+Professor José Eduardo Nunes Lino
+Doutorando e mestre em Informática pela PUCPR. Bacharel em Ciência da Computação pela mesma instituição. Tem ampla experiência em desenvolvimento web, frameworks e bibliotecas web, análise e desenvolvimento de sistemas em geral, nota fiscal eletrônica e de serviço, metodologias ágeis e jogos eletrônicos educacionais, além de conhecimento em modelagem de processos, gestão de projetos, linha de processos de software e acessibilidade digital para pessoas surdas. Atualmente, é professor assistente na PUCPR.
+
+Currículo Lattes: http://lattes.cnpq.br/6425948234327630 
+E eu sou seu Professor-Tutor
+Imagem do Professor-Tutor
+Mestre em Informática pelo PPGIa da PUCPR. Especialista em Redes e Segurança de Sistemas pela PUCPR. Graduado em Análise e Desenvolvimento de Sistemas pela Organização Paranaense de Ensino Técnico. Bacharel em Turismo pela PUCPR. Atua como especialista em Segurança e Serviços de Redes na Celepar, desde 2010. Professor-tutor dos cursos de graduação em Tecnologia em Análise e Desenvolvimento de Sistemas, Gestão da Tecnologia da Informação, Tecnologia em Inteligência Artificial Aplicada e Tecnologia em Big Data e Inteligência Analítica da PUCPR. Professor-tutor da disciplina Serviços de Rede do curso de pós-graduação em Redes e Segurança de Sistemas da PUCPR. Pesquisador do grupo CiberSegurança e Privacidade, do PPGIa da PUCPR.
+
+Currículo Lattes: 
+http://lattes.cnpq.br/9531003346627083
+
+
+
+
+Plano de Ensino
+
+Importante!
+-   A média final para aprovação em uma disciplina deve ser igual ou superior a 7,0.
+
+- Considerando as 
+Diretrizes para uso da Inteligência Artificial - IA na PUCPR
+  é de responsabilidade do professor-tutor desta disciplina estabelecer e aplicar, em consonância com o disposto neste documento, consequências acadêmicas para o uso inadequado das ferramentas de IA pelos estudantes, tais como anulação ou redução da nota.
+
+Mapa Mental
+Descrição da imagem não disponível
+
+
+
+
+
+ABERTURA DA SEMANA
+Primeiramente vamos revisar o conteúdo de array e objeto, pois será a partir destes conceitos que vamos dar início aos estudos de React.  Em seguida, será apresentado o passo-a-passo para instalação e configuração do React para a criação de um primeiro projeto em React.
+
+
+Marcar como concluído
+
+Tecnologias Para Desenvolvimento Web
+UNIDADE 01
+Array em JavaScript e Primeiro projeto React
+Array é um objeto que permite o armazenamento de uma coleção ordenada de dados indexados sequencialmente a partir de zero [1]. Na figura 1 podemos visualizar um array de números inteiros e suas posições.
+
+Figura 1. Array de números inteiros e suas posições
+#ParaTodosVerem
+Array com oito elementos (50, 21, 42, 8, 9, 1, 21 e 74), mostrando seus índices de 0 a 7 e a correspondência entre posições e valores. 
+Fonte: o autor, 2021.
+Os índices representam as posições do array, que sempre vão iniciar na posição 0 (zero). A sintaxe de um array tem diferentes formatos. A declaração direta ou representação literal é aquela em que o array é representado pelos símbolos de colchetes. Veja a sintaxe em JavaScript na Figura 2:
+
+Figura 2. Array vazio.
+#ParaTodosVerem
+Linha de código JavaScript “var array = [];” que declara um array vazio.
+Fonte: o autor, 2021.
+Desta maneira, como é apresentado na figura 2, podemos criar um array vazio, mas para criar um array e já iniciá-lo com valores de números inteiros ou com valores em string, basta seguir o exemplo da figura 3.
+
+Figura 3. Array inicializado com valores.
+#ParaTodosVerem
+Exemplo de dois arrays em JavaScript, um com números e outro com palavras, mostrando que a estrutura pode armazenar diferentes tipos de dados. 
+Fonte: o autor, 2021.
+
+
+Em JavaScript, diferentemente de diversas outras linguagens de programação, também podemos criar um array e iniciá-lo com valores de diferentes tipos, como é apresentado na figura 4.
+
+Figura 4. Array inicializado com valores de tipos diferentes.
+#ParaTodosVerem
+Código JavaScript que declara um array com diferentes tipos de dados: texto, número inteiro, valor booleano e número decimal.
+Fonte: o autor, 2021.
+
+
+Para imprimir os valores de um array, será necessário utilizar um laço de repetição, sendo este laço, um for, forEach ou qualquer outro. A figura 5 demonstra o exemplo para imprimir o array com for e a figura 6 demonstra com forEach.
+
+Figura 5. Array impresso com for.
+#ParaTodosVerem
+Código JavaScript que percorre um array com diferentes tipos de dados usando um loop for e exibe cada elemento no console. 
+Fonte: o autor, 2021.
+Figura 6. Array impresso com forEach.
+#ParaTodosVerem
+Código JavaScript que usa o método forEach para percorrer um array com diferentes tipos de dados e exibir cada elemento no console. 
+Fonte: o autor, 2021.
+
+
+Para inserir um novo valor para o array, podemos utilizar o método push e para remover o método pop. As figuras 7 e 8 demonstram o código de como insere e remove um item utilizando estes métodos com um array de frutas.
+
+Figura 7. Inserindo um valor no array com o método push.
+#ParaTodosVerem
+Código JavaScript que usa o método push para adicionar “morango” e “uva” a um array, mostrando a atualização dos elementos.
+Fonte: o autor, 2021.
+Figura 8. Removendo um valor no array com o método pop.
+#ParaTodosVerem
+Código JavaScript que usa o método pop para remover o último elemento de um array, mostrando o resultado após a operação.
+Fonte: o autor, 2021.
+React
+React é uma biblioteca JavaScript criada pelo Facebook para a criação de interfaces de usuário [2]. Seu objetivo é facilitar o desenvolvimento de interfaces por meio de componentes reutilizáveis [2]. Para criar um projeto em React, precisamos configurar todo o ambiente e para isso, precisamos fazer a instalação do React em nossos computadores.
+
+Primeiro, devemos fazer o download e instalação do Node.js, que é uma tecnologia usada para executar códigos JavaScript fora do navegador. Com ele podemos construir aplicações web em geral ou até aplicativos. O Node.js será necessário também, porque junto com ele, teremos acesso ao NPM, que é o gerenciador de pacotes do Node.js, que vamos utilizar para fazer a instalação de outras bibliotecas e pacotes em nossos projetos em React. Para isso, basta apenas fazer o download e instalação acessando o site.
+
+Com o Node.js instalado, já podemos instalar o React. Para isso verifique inicialmente se o Node.js foi instalado corretamente e em seguida, instale o React, seguindo os comandos apresentados na figura 9.
+
+Figura 9. Comando de instalação do React.
+#ParaTodosVerem
+Terminal executando comandos para verificar a versão do Node.js e instalar globalmente o create-react-app com npm. 
+Fonte: o autor, 2021.
+
+
+Com o React instalado, já podemos criar um projeto em React, executando o comando apresentado na figura 10.
+
+Figura 10. Comando de criação de um projeto React.
+#ParaTodosVerem
+Terminal executando o comando “create-react-app projeto” para criar um novo projeto React.
+Fonte: o autor, 2021.
+
+
+Após criar o projeto, deverá entrar dentro da pasta “projeto” e executar o comando “npm start” para a execução do projeto no browser, como pode ser visualizado na figura 11.
+
+Figura 11. Comando para executar o projeto React.
+#ParaTodosVerem
+Terminal exibindo o comando “npm start” para iniciar a execução de um projeto React. 
+Fonte: o autor, 2021.
+
+
+Desta forma, já podemos visualizar em nosso browser, a aplicação em React sendo executado, como é demonstrado na figura 12.
+
+Figura 12. Execução do projeto React.
+#ParaTodosVerem
+Navegador exibindo aplicação React em localhost com o logotipo do React e mensagem para editar o arquivo App.js. 
+Fonte: o autor, 2021.
+
+
+CONCLUSÃO
+Nesta unidade, foi revisado o conteúdo de array em JavaScript, necessário para darmos início aos nossos projetos em React. Também foi apresentado o passo-a-passo para a instalação e configuração do React em nossos computadores.
+
+REFERÊNCIAS
+[1] TENENBAUM, A. M. Estrutura de Dados usando C. Editora MAKRON Books. São Paulo, 1995.
+
+[2] React. React – Uma biblioteca JavaScript para criar interfaces de usuário. Disponível em: https://pt-br.reactjs.org/. Acessado em: 5 de outubro de 2021.
+
+
+ATIVIDADE FORMATIVA
+A moda de um array de números inteiros é o número que é repetido mais vezes. Se há mais de um número com mais repetições do que os outros então não há moda. Escreva um algoritmo em Javascript que receba um vetor de inteiros e retorne a moda do vetor. Caso a moda não exista, então informe o usuário. 
+
+
+Gabarito
+O Feedback pode ser realizado através do código apresentado abaixo. 
+
+Descrição da imagem não disponível
+    
+
+
+Marcar como concluído
+
+
+
+ABERTURA DA SEMANA
+Nesta semana, será abordado o conceito de Componentes e Props em React. É fundamental que se entenda estes dois conceitos, pois serão a base para a construção de nossas aplicações em React. Basicamente todas as aplicações em React apresentam estes dois conceitos inicialmente.
+
+[Unidade 02] Componentes e Props
+Para realizar as atividades desta disciplina, você deverá estudar todos os conteúdos disponíveis neste link (clique no título da atividade).Durante o estudo, você poderá refletir:
+O que já sei sobre esse tema?
+O que posso aprender pesquisando?
+O que não compreendi?
+
+
+
+Tecnologias Para Desenvolvimento Web
+UNIDADE 02
+Componentes e Props
+Nesta semana, será abordado o conceito de Componentes e Props em React. É fundamental que se entenda estes dois conceitos, pois serão a base para a construção de nossas aplicações em React. Basicamente todas as aplicações em React apresentam estes dois conceitos inicialmente.
+
+Componentes e Props
+Os componentes em React, permitem você dividir a UI (interface do usuário) em partes independentes, reutilizáveis e pensar em cada parte isoladamente. Conceitualmente, componentes são como funções JavaScript, eles aceitam entradas arbitrárias (chamadas “props”) e retornam elementos React que descrevem o que deve aparecer na tela [1]. Sendo assim, devemos criar diversos componentes de interface diferentes e juntá-los, para assim, formar a interface completa. A Figura 1 demonstra como é a construção de uma interface em React.
+
+Figura 1. Componentes
+#ParaTodosVerem
+Diagrama que mostra quatro componentes sendo combinados por setas para formar uma interface completa organizada.
+Fonte: o autor, 2021
+Em React, podemos criar os componentes de 3 formas:
+
+Function
+Arrow Function
+Class Component
+Porém, React não trabalha apenas com Javascript puro, é necessário utilizar o JSX. Em resumo, o JSX é uma sintaxe semelhante ao XML, onde você consegue escrever e compreender de uma melhor forma, como será montado seu componente na UI [1]. A figura 2 mostra um exemplo de JSX.
+
+Figura 2. JSX
+#ParaTodosVerem
+Código JavaScript com JSX que define uma constante contendo um elemento <h1> com o texto “Hello, world!”. 
+Fonte: o autor, 2021.
+
+
+Esta sintaxe “estranha” e nova, não é uma String, nem HTML! É apenas um JSX. Basicamente conseguimos com o uso do JSX, incorporar HTML para dentro de uma variável/constante em Javascript. Mas para que isso? Desta forma, podemos obter o melhor das duas linguagens, fazendo com as duas (HTML e Javascript) trabalhem juntas. Sendo assim, nesta semana, vamos detalhar os exemplos de componente em Function e Arrow Function apenas. Class Component ficará para a próxima semana, pois é um pouco mais complexo. A figura 3 mostra um exemplo de componente Function em React.
+
+Figura 3. Componente Function  
+#ParaTodosVerem
+Exemplo básico de componente funcional React que retorna uma <div> com o texto “Hello, world!”. 
+Fonte: o autor, 2021.
+
+
+Perceba que neste exemplo, temos um pouco mais do que apenas uma Function. No início do arquivo, temos a importação do React. Será necessário importar o react seguindo esta sintaxe para trabalharmos com este componente.
+
+Em seguida, temos a Function chamada Inicio. Desta forma, podemos dizer que este componente se chama Inicio. E dentro dele, temos obrigatoriamente uma função chamada return. Esta função return, irá retornar para a interface um código HTML, que será renderizado na tela, a partir deste componente. Mas para que isso seja possível, temos que exportar o componente, como é demonstrado na linha final. Neste momento, não se preocupe em não entender detalhadamente o significado de cada palavra-chave no código, até porque, no vídeo desta semana, será detalhado um pouco mais.
+
+Perceba também que a função return está retornando um código JSX, ou seja, um código similar a um HTML. E SEMPRE dentro da função return deverá ter um JSX dentro de uma ÚNICA ÚLTIMA tag. Ou seja, sempre o conteúdo JSX que será retornado do return, deverá estar dentro de uma tag final, obrigatoriamente. Não pode ter duas tag finais, como é demonstrado no exemplo da figura 4.
+
+Figura 4. Retorno do JSX
+#ParaTodosVerem
+Exemplo de retorno JSX em React mostrando casos corretos e incorretos do uso de múltiplas tags <div> dentro do return. 
+Fonte: o autor, 2021.
+
+
+Já uma Arrow Function segue exatamente a mesma ideia da Function, a única diferença entre os dois tipos de função é que uma Arrow Function possui uma sintaxe mais curta quando comparada a uma expressão de função do tipo Function. Mas de qualquer forma, internamente, a ideia é a mesma da Function. A figura 5 mostra um exemplo de componente Arrow Function em React.
+
+Figura 5. Arrow Function
+#ParaTodosVerem
+Exemplo de componente React utilizando arrow function para retornar uma <div> com o texto “Hello, world!”. 
+Fonte: o autor, 2021.
+
+
+Além disso, podemos relacionar estes componentes. Ou seja, podemos construir um componente X e executá-lo dentro de um novo componente Y. Por exemplo, podemos criar mais um componente chamado Nome e este componente poderá ser montado dentro do componente Inicio, como pode ser visualizado na figura 6.
+
+Figura 6. Relacionamento de Componentes  
+#ParaTodosVerem
+Exemplo de componente React reutilizando o componente Nome dentro do componente principal Inicio. 
+Fonte: o autor, 2021.
+
+
+O problema, é que desta forma, caso eu precise ter 3 componentes Nome dentro do componente Inicio, todos eles vão imprimir na tela o texto “Eduardo Lino”. Desta forma, podemos utilizar as props (que significa propriedades), para passar valores como parâmetro para os outros componentes relacionados. A figura 7 mostra o código com o exemplo de props, e a figura 8 mostra com contornos o que foi adicionado para o uso de props.
+
+Figura 7. Componentes e props  
+#ParaTodosVerem
+Exemplo de componente React utilizando props para exibir diferentes nomes por meio da reutilização do componente Nome.
+Fonte: o autor, 2021.
+Figura 8. Componentes e props - contornos
+#ParaTodosVerem
+Exemplo visual de uso de props em React mostrando como o componente Nome recebe e exibe diferentes valores da propriedade texto. 
+Fonte: o autor, 2021.
+
+
+Com o uso de props, podemos criar novos atributos para as tags que são criadas dentro dos componentes. Desta forma, em roxo é demonstrado a criação de um novo atributo chamado texto e cada atributo do tipo texto está passando um valor diferente em cada componente Nome. Assim, para que se consiga usar as props, temos que “dizer” para o componente que vamos utilizá-las! Em verde, colocamos a palavra props como parâmetro da Arrow Function. Desta forma, já podemos utilizar as props neste componente Nome. Para isso, deve colocar um código Javascript dentro da tal <label> e isso somente é possível dentro de { } (abre e fecha chaves), como é demonstrado dentro do contorno em amarelo. Dentro de props, teremos todas as propriedades do componente, inclusive acesso os valores dos atributos dele.
+
+Em React, também podemos incluir arquivos CSS para que possamos adicionar estilos aos nossos componentes. Para isso, basta criar um arquivo CSS com os estilos e importá-lo para dentro de algum de nossos arquivos JavaScript, conforme é ilustrado na Figura 9. Fique atento em relação ao diretório, deve estar correto para que consiga fazer a importação dos estilos.
+
+Figura 9. Incluindo CSS
+#ParaTodosVerem
+Código JavaScript que importa o arquivo “estilos.css” para aplicar estilos à aplicação.
+Fonte: o autor, 2021.
+
+
+A única diferença aqui com CSS, é a sintaxe referente ao nome do atributo atualização para incluir a classe CSS. Aqui com o React, devemos colocar a classe com o estilo no atributo className. Com HTML puro, sem a biblioteca React, usamos o atributo class, mas com React, precisamos obrigatoriamente utilizar o className, conforme é ilustrado na Figura 10.
+
+Figura 10. Atributo className
+#ParaTodosVerem
+Código JSX que define um botão com texto “Gravar” e classe de estilo “estilo-botao”.
+Fonte: o autor, 2021.  
+
+
+CONCLUSÃO
+Nesta unidade, foi apresentado o conceito de componentes e props que serão a base para a construção de nossas aplicações em React
+
+REFERÊNCIAS
+[1] React. React – Uma biblioteca JavaScript para criar interfaces de usuário. Disponível em: https://pt-br.reactjs.org/. Acessado em: 7 de outubro de 2021.
+
+
+VIDEOAULA: Componentes, props e CSS
+Componentes, props e CSS
+Assista ao vídeo no qual o professor apresenta uma explicação prática do desenvolvimento de componentes, props e utilização de CSS em React.
+
+
+
+
+
+Conteúdo concluído
+
+
+
+
+ATIVIDADE FORMATIVA: Semana 2
+Nesta semana, foi apresentado o conteúdo de componentes e props em React. Com estes dois conteúdos já é possível criarmos uma aplicação em React do zero.
+
+Apenas utilizando conhecimento que teve com componentes, props e CSS, crie uma nova aplicação em React com a interface de uma calculadora. A interface deverá ser exatamente igual da imagem abaixo. Não haverá a necessidade de ser funcional, ou seja, caso clique em algum botão, não precisará executar nenhuma ação, deve apenas criar a interface gráfica a partir dos componentes e com o uso de props e CSS.
+
+Descrição da imagem não disponível
+
+Marcar como concluído
+
+
+
+https://static.plataforma.grupoa.education/null/null/66434/07b3e698-58e0-4ff0-bc8b-2466b2ca5393.js
+
+
+
+Feedback - AF
+Agora que você realizou o exercício, é hora de verificar se a aplicação em React foi realizada da forma correta. Para isso, acesse os arquivos anexos.
+
+
+
+
+Marcar como concluído
+
+
+https://static.plataforma.grupoa.education/null/null/66434/73d3c79d-f19b-497e-b1e3-2826a0d2f0d3.css
+
+
+
+
+
+
+======
+[Unidade 03] Componentes em classe e uso de State
+Nesta semana, será abordado o conceito de Componentes em Classe e uso de State. Será a partir deste conhecimento que vamos poder explorar mais os nossos componentes em React, para que possamos ter aplicações mais avançadas.
+
+
+Tecnologias Para Desenvolvimento Web
+UNIDADE 03
+Componentes em classe e uso de State
+Componentes em classe e uso de State
+Como já aprendemos na semana passada, os componentes em React, permitem você dividir a UI (interface do usuário) em partes independentes, reutilizáveis e pensar em cada parte isoladamente. Conceitualmente, componentes são como funções JavaScript, que aceitam entradas arbitrárias (chamadas “props”) e retornam elementos React que descrevem o que deve aparecer na tela [1]. Porém, existem componentes mais complexos, como é o caso dos componentes criados a partir de classes. Estes componentes possuem métodos do ciclo de vida que podem sobrescrever para executar determinado código em momentos particulares do processo.
+
+Entre os diversos métodos existentes em um componente do tipo classe, temos o render(). Ele é o único método obrigatório em um componente do tipo classe. Quando o render() é chamado, ele examina o this.props e o this.state e retorna elementos React, tipicamente criados via JSX.  A Figura 1 demonstra como é a construção de um componente do tipo classe.
+
+Figura 1. Componente do tipo classe
+#ParaTodosVerem
+Código React com componente de classe que renderiza um título exibindo nome e sobrenome recebidos via props. 
+Fonte: o autor, 2021.
+
+
+Além do render(), que renderiza os componentes, também temos o constructor (construtor), que é chamado antes que o componente seja montado, como pode ser visto no exemplo da Figura 2.
+
+Figura 2. Constructor
+#ParaTodosVerem
+Código React que define um componente de classe com construtor e método render retornando uma div vazia.
+Fonte: o autor, 2021.  
+Quando estiver implementando o constructor para uma subclasse de React.Component, deve-se chamar super(props) antes de qualquer outra coisa. Caso contrário this.props será indefinido no construtor, o que pode levar a bugs.
+
+Em um componente do tipo classe, também temos o famoso “state”. Ele é um gerenciador que existe dentro do componente, como se fosse uma área para declarar variáveis dentro de uma classe, como atributos, como pode ser visto no exemplo da Figura 3.
+
+Figura 3. State
+#ParaTodosVerem
+Código React de componente de classe que define um estado com nome e o exibe dinamicamente na interface. 
+Fonte: o autor, 2021.
+
+
+Com o state, podemos inicializar diversos tipos de variáveis dentro do componente e podemos também, atribuir novos valores, por exemplo: ao clicar em um botão na tela, podemos aumentar ou diminuir o valor de uma variável inteira dentro da state. Isso é basicamente mudar o estado do componente, pois se esta variável estiver sendo utilizada dentro do return do render(), este valor será modificado automaticamente.
+
+Mas como podemos criar um botão e fazer com que o clique deste botão mude o valor de uma variável da state? Isso é bem simples na verdade. Mas vamos demonstrar o passo a passo de como podemos fazer isso!
+
+Primeiro vamos declarar uma variável na state chamada contador e inicializá-la com o valor zero (Figura 4).
+
+Figura 4. Declaração de variável na state
+#ParaTodosVerem
+Trecho de código React que inicializa o state de um componente com nome e contador dentro do constructor. 
+Fonte: o autor, 2021.
+Agora precisamos criar um botão para que o usuário possa clicar em algo. Sendo assim, vamos criar a tag button para que o componente possa renderizá-la na página (Figura 5).
+
+Figura 5. Criação do button
+#ParaTodosVerem
+Código JSX exibindo nome e contador do state junto a um botão de incremento dentro de uma div. 
+Fonte: o autor, 2021.
+
+
+Se clicarmos no botão apenas como ele está, não irá executar nenhum método para que possamos aplicar nossa lógica para aumentar o valor da variável da state, sendo assim, precisamos criar o atributo onClick e a partir dele, executar um novo método chamado aumentar(), que ainda vamos criar dentro de nosso componente (Figura 6).
+
+Figura 6. Chamada do método no botão  
+#ParaTodosVerem
+Código JSX de botão com evento onClick associado à função aumentar e rótulo de incremento (+).
+Fonte: o autor, 2021.
+
+
+Agora, devemos criar nosso método chamado aumentar(), como pode ser visualizado na Figura 7.
+
+Figura 7. Criação do método aumentar()
+#ParaTodosVerem
+Código React que define a função aumentar, que exibe a mensagem “aumentou” no console quando chamada.
+Fonte: o autor, 2021.  
+
+
+Esse método dentro do componente executará a função, mas não atualizará o componente na tela. Para isso, é necessário atualizar a state com o método setState, que é nativo do React. O método setState() gera uma atualização do objeto state de um componente. Quando o state muda, o componente responde renderizando novamente na tela automaticamente, ou seja, toda vez que executamos o método setState(), o componente é atualizado na tela, sem a necessidade de atualizarmos pelo browser ou apertar F5.
+
+Desta forma, precisamos criar nossa lógica para aumentar o valor da variável da state e após, atualizar o estado do componente com o método setState (Figura 8).
+
+Figura 8. Lógica do método aumentar()
+#ParaTodosVerem
+Código React que define a função aumentar para incrementar o contador no state e atualizar a interface. 
+Fonte: o autor, 2021.
+
+
+O que está sendo feito na Figura 8, é que estamos obtendo o estado do comente para uma variável também chamada state, e dentro dela é que temos a variável contador. Assim, modificamos o valor do contador e aplicamos um novo estado para o componente. Porém, ainda temos uma última regrinha: todo método que atualiza o estado do componente, deve ser feito um bind deste método no construtor do componente, para que o componente saiba qual método poderá manipular o estado do componente. O método bind() cria uma nova função, quando invocado, tem o this configurado para o valor fornecido. A Figura 9 demonstra como o bind do método aumentar é aplicado ao construtor do componente.
+
+Figura 9. Bind do método do componente
+#ParaTodosVerem
+Código React que inicializa o state com nome e contador e faz o bind da função aumentar no construtor.
+Fonte: o autor, 2021.
+Desta forma, podemos construir um componente que tenha métodos, eventos, lógica e reconstrução do estado, apenas utilizado um componente do tipo classe.
+
+CONCLUSÃO
+Nesta unidade, foi apresentado o conceito de componentes em classe e estado do componente. Estes dois conceitos são essenciais para o andamento do nosso conteúdo e entendimento da construção de componentes mais avançados.
+
+REFERÊNCIAS
+[1] React. React – Uma biblioteca JavaScript para criar interfaces de usuário. Disponível em: https://pt-br.reactjs.org/. Acessado em: 12 de outubro de 2021.
+
+© PUCPR - Todos os direitos reservados.
+
+ | Privacidade e Proteção de Dados
+
+
+
+VIDEOAULA: Class Component
+Class Component
+Será apresentado uma explicação prática do desenvolvimento de Class Componente em React, passando por todo o ciclo de vida deste componente.
+
+
+
+
+Conteúdo concluído
+
+
+
+
+
+ATIVIDADE FORMATIVA
+Com a utilização de Class Componente e state, crie um novo componente que possua 2 (dois) botões e uma label com um número que começa em 0 (zero):
+
+Botão 1: adicionar 1 ao valor da label.
+Botão 2: subtrair 1 ao valor da label.
+Label: demonstrar o valor no componente.
+
+Marcar como concluído
+
+
+
+
+Semana de Estudos 3 - de 25 de maio a 31 de maio
+
+GABARITO ATIVIDADE FORMATIVA
+Agora que você realizou o exercício, é hora de verificar se o componente foi criado da forma correta. Para isso, acesse o arquivo anexo.
+
+
+
+
+Marcar como concluído
+
+
+
+import React, {Component} from 'react';
+import './App.css';
+
+class App extends Component{
+
+  constructor(props){
+    super(props);
+    this.state = {
+      contador: 0
+    }
+    this.aumentar = this.aumentar.bind(this);
+    this.diminuir = this.diminuir.bind(this);
+  }
+
+  aumentar(){
+    let state = this.state;
+    state.contador += 1;
+    this.setState(state);
+  }
+
+  diminuir(){
+    let state = this.state;
+    state.contador -= 1;
+    this.setState(state);
+  }
+
+  render(){
+    return(
+      <div>
+        <button onClick={this.aumentar}> Adicionar </button> &nbsp;
+        <button onClick={this.diminuir}> Subtrair </button> <br/><br/>
+        Valor: {this.state.contador}
+      </div>
+    )
+  }
+
+}
+
+export default App;
+
+
+
+
+https://static.plataforma.grupoa.education/null/null/66434/d379665f-8c5a-48d9-aaca-6639f1b21c97.js
+
+
+
+======
+
+[Unidade 04] Array, imagem e formulário
+Nesta semana, será abordado o uso de arrays e formulários em React. Diversas aplicações do nosso cotidiano utilizam formulários para preenchimento de dados e até mesmo arrays que são manipuladas. Sendo assim, nesta semana, vamos avançar um pouco mais com o React aprendendo estes dois novos conceitos.
+
+
+
+
+Tecnologias Para Desenvolvimento Web
+UNIDADE 04
+Array, imagem e formulário
+Array, imagem e formulário
+O array que vamos utilizar aqui é basicamente o mesmo visto na primeira semana de aula, a única diferença é que será desenvolvida junto com a sintaxe das aplicações em React. Sendo assim, um array nada mais é que um objeto que permite o armazenamento de uma coleção ordenada de dados indexados sequencialmente a partir de zero.
+
+Porém aqui, com os componentes do tipo classe, não vamos declarar o array em um escopo global do arquivo e sim, dentro do estado do componente, como já vimos na semana passada, quando definidos a variável contador dentro do estado do componente.
+
+Como pode ser observado na Figura 1, temos duas variáveis no estado no componente: nome e feed. A variável nome é apenas uma String e feed é um array de objetos com valores já pré-definidos.
+
+Figura 1. Variáveis de estado do componente
+#ParaTodosVerem
+Código React que define no state um nome e um array de objetos representando um feed com usuários, curtidas e comentários. 
+Fonte: o autor, 2021.
+Também podemos definir variáveis vazias, como é demonstrado na Figura 2.
+
+
+Figura 2. Variáveis de estado do componente vazias
+#ParaTodosVerem
+Código React que inicializa o state com nome vazio e um array feed vazio.
+Fonte: o autor, 2021.
+
+
+Para conseguir mostrar uma variável de estado no HTML do componente, precisamos colocá-la, no HTML usando JSX. Para isso, precisamos descrevê-la entre { }, como é mostrado na Figura 3.
+
+Figura 3. Constructor
+#ParaTodosVerem
+Código JSX que retorna uma div exibindo dinamicamente a propriedade nome com this.nome.
+Fonte: o autor, 2021.
+
+
+E como sabemos e já vimos na primeira semana, em JavaScript, os arrays não podem ser mostrados na tela apenas colocando-os no HTML, e sim, precisamos percorrer todo o array e mostrar os valores de cada array, pois o array é um objeto. Desta forma, em React, os arrays tem um método chamado map(), que basicamente mapeia todos os valores dentro deste array e cria um laço de repetição para que possamos percorrer todo este objeto array. Assim, precisamos apenas descrever a variável feed (Figura 1), que já possui valores pré-definidos e chamar o método map(). O método map(), exige que tenhamos uma variável de escopo do método como parâmetro. Esta variável, será os itens de cada posição do array, por exemplo: A cada vez que o laço de repetição map() for executado, a variável item será:
+
+Primeira vez que o laço for executado: 
+{id:1, username: “Eduardo”, curtidas: 10, comentários: 2}
+
+Segunda vez que o laço for executado:
+{id:2, username: “Amanda”, curtidas: 120, comentários: 10}
+
+Terceira e última vez que o laço for executado:
+{id:2, username: “Olivia”, curtidas: 300, comentários: 150}
+
+
+
+A Figura 4 demonstra como pode ser criado este laço de repetição.
+
+Figura 4. Laço de repetição map() para arrays
+#ParaTodosVerem
+Código JSX que usa map para percorrer um array no state e exibir dinamicamente o username de cada item em divs.
+Fonte: o autor, 2021.
+
+
+Porém, se você abrir o console da página no browser, poderá perceber que um warning está ocorrendo (Figura 5). Lembrando que warning não é erro, mas é sempre bom ficar atendo quando algum aparece, pois pode ser que seja muito importante o aviso!
+
+Figura 5. warning
+#ParaTodosVerem
+Aviso do React informando que itens de uma lista precisam de uma propriedade key única ao serem renderizados.
+Fonte: o autor, 2021.
+
+
+Este warning indica que, ao criar cada item do map(), devemos fazer com que cada um deles tenham uma chave única para diferenciá-los. As chaves ajudam o React a identificar quais itens sofreram alterações, foram adicionados ou removidos. As chaves devem ser atribuídas aos elementos dentro do array para dar uma identidade estável aos elementos, como pode ser visualizado na Figura 6.
+
+Figura 6. Chamada do método no botão
+#ParaTodosVerem
+Código JSX que usa map para renderizar uma lista com chave única (key) e exibir o username de cada item.
+Fonte: o autor, 2021.
+Desta forma, atribuímos o id que faz parte de cada objeto do array como índice. Não é recomendado o uso de índices para chave se a ordem dos itens pode ser alterada. Isso pode impactar de forma negativa o desempenho e poderá causar problemas com o estado do componente.
+
+
+Como utilizar imagem em React?
+Para renderizar uma imagem no HTML do componente, precisamos apenas importar a imagem de algum endereço dentro do projeto React. Sendo assim, podemos baixá-la e salvá-la dentro do projeto. No exemplo da Figura 7, temos uma imagem (imagem.png) que está dentro de uma nova pasta chamada assets.
+
+Figura 7. Imagem
+#ParaTodosVerem
+Estrutura de pastas de um projeto React mostrando a pasta src aberta e um arquivo imagem.png dentro da pasta assets. 
+Fonte: o autor, 2021.
+
+
+Agora que temos a imagem dentro do projeto, já podemos importá-la para dentro da nossa aplicação React. Para isso, precisamos importá-la no começo do arquivo que temos o nosso componente, como pode ser visualizado na Figura 8.
+
+Figura 8. Importação de imagem
+#ParaTodosVerem
+Código JavaScript que importa uma imagem do diretório assets para uso em um projeto React.
+Fonte: o autor, 2021.
+
+
+Após fazer a importação, temos o objeto Imagem pronto para ser utilizado, como pode ser visualizado na Figura 9.
+
+Figura 9. Uso da imagem
+#ParaTodosVerem
+Código JSX que exibe uma imagem usando a variável importada Imagem dentro de uma div. 
+Fonte: o autor, 2021.
+
+
+
+Como criar campos de formulário em React?
+Formulários são muito comuns em qualquer tipo de aplicação e também precisamos saber como utilizá-los aqui em React. Uma forma de fazermos isso é criando uma variável de estado para cada campo de formulário criado no HTML do componente. No exemplo a seguir, vamos criar um campo de e-mail e fazer com que, ao modificar este campo de e-mail, seu valor deverá estar preenchido dentro da variável de estado, para que possamos obter este valor e fazer o que desejarmos com ele.
+
+Então primeiro vamos criar a variável de estado email, como pode ser visualizado na Figura 10.
+
+Figura 10. Variável de estado, email
+#ParaTodosVerem
+Código React que inicializa o state com a propriedade email vazia. 
+Fonte: o autor, 2021.
+
+
+Em seguida, devemos criar nosso input do tipo email no HTML do componente (Figura 11).
+
+Figura 11. Input do tipo email
+#ParaTodosVerem
+Campo de entrada HTML do tipo texto com tamanho 20 e nome “email”.
+Fonte: o autor, 2021.
+
+
+Em HTML, todo campo de input tem alguns eventos de estado, como é o caso do onChange. Este evento ocorre quando o input em questão tem seu valor modificado. Ou seja, toda a vez que o valor com input for modificado pelo usuário, automaticamente este evento será disparado e podemos fazer com que ele execute um novo método. A Figura 12 mostra como podemos criar um evento de onChange para nosso input email.
+
+Figura 12. Input do tipo email com evento de onChange
+#ParaTodosVerem
+Campo de entrada de texto com evento onChange que chama a função muda ao alterar o valor do campo.
+Fonte: o autor, 2021
+
+
+O método muda deverá ser criado por nós dentro da nossa classe componente. Assim, toda vez que houver uma mudança no valor deste campo, automaticamente o método muda será executado. Mas somente isso, não faz com que o método leve o valor digitado para dentro do método. Precisamos fazer com que um parâmetro seja passado, como é demonstrado na Figura 13.
+
+Figura 13. Input do tipo email com evento de onChange com parâmetro
+#ParaTodosVerem
+Campo de entrada de texto com evento onChange usando função de seta para chamar muda com o evento. 
+Fonte: o autor, 2021.
+
+
+Desta forma, podemos executar nosso código dentro do método muda() e obter o valor digitado no input email (Figura 14).
+
+Figura 14. Método muda()
+#ParaTodosVerem
+Função React que atualiza o state com o valor digitado no input e exibe o email no console. 
+Fonte: o autor, 2021.
+
+
+Como já sabemos, o primeiro passo é obter o estado com suas variáveis. Após obter o estado e ter acesso a variável email, precisamos obter o valor digitado do input. Na Figura 12, podemos perceber que foi passado como parâmetro a variável e, e no método muda temos o event, que é mesma variável. Por padrão, geralmente nos inputs são utilizados variáveis com nomes menores apenas para que não fique muito verboso, mas poderia ser utilizado o nome event nos dois locais. Sendo assim, dentro de event, temos o evento de mudança que foi disparado a partir do onChange e dentro do event, temos acesso ao valor atual digitado, que fica localizado em event.target.value. Após, obter o valor digitado, devemos atualizar a state com este novo valor. Na última linha foi colocado um console.log apenas para teste de visualização no console para verificar se realmente funcionou. Isso é muito importante para quem está começando no universo da programação web.
+
+Desta forma, vamos avançar um pouco mais com as aplicações em React. Com o conteúdo desta semana, podemos criar formulários e imagens, além de trabalhar com arrays, que será muito importante para a continuidade do nosso conteúdo.
+
+ 
+
+CONCLUSÃO
+Nesta unidade, foi apresentado o conceito de componentes em classe e estado do componente. Estes dois conceitos são essenciais para o andamento do nosso conteúdo e entendimento da construção de componentes mais avançados.
+
+REFERÊNCIAS
+[1] React. React – Uma biblioteca JavaScript para criar interfaces de usuário. Disponível em: https://pt-br.reactjs.org/. Acessado em: 12 de outubro de 2021.
+
+© PUCPR - Todos os direitos reservados.
+
+ | Privacidade e Proteção de Dados
+
+
+Aviso Importante
+Importante
+Você está na semana de desenvolvimento da Atividade Somativa 1 da disciplina.
+
+Para entregar a atividade, siga para a área ==> ATIVIDADES SOMATIVAS DA DISCIPLINA 
+Descrição da imagem não disponível
+Importante: O link para Entrega da Atividade Somativa 1 ficará disponível  desde a semana 4 até o término da semana 6, ok?
+
+
+
+[Unidade 05] Rotas
+Nesta semana, será abordado o uso de rotas em React. Este conteúdo será necessário para que possamos mapear outras páginas em nossas aplicações React e acessá-las de forma simples.
+
+
+
+
+Tecnologias Para Desenvolvimento Web
+UNIDADE 05
+Rotas
+Em um site acessamos várias páginas, como por exemplo, página inicial, contatos, sobre, perfil, etc. Para navegar entre as páginas de uma aplicação React, precisamos criar rotas, onde cada rota vai representar uma página. Para trabalhar com rotas no React vamos utilizar um pacote chamado React Router Dom que precisa ser instalado no nosso projeto [1]. É ele que nos auxiliará na criação da navegação das páginas.
+
+Sendo assim, devemos acessar o diretório raiz do projeto pelo terminal e executar o comando demonstrado na Figura 1.
+
+Figura 1. Instalação do React Router Dom.
+#ParaTodosVerem
+Comando npm install react-router-dom para instalar biblioteca de rotas em um projeto React. 
+Fonte: o autor, 2021.
+
+
+Dentro do pacote do React Router Dom, temos alguns componentes que vamos precisar aprender para que as rotas funcionem corretamente.
+
+BrowserRouter: este componente é responsável por informar à nossa aplicação que teremos um roteamento de componentes, por conta disso ele ficará em volta dos componentes que são do tipo Route.
+Route: este componente associará a rota aos componentes. Nele temos três parâmetros:
+component: recebe o componente que precisa ser exibido ao acessar a rota;
+path: caminho na URL que precisa ser acessado para mostrar o componente, definido pelo parâmetro componente;
+exact: determina qual o componente vai ser exibido apenas se a rota for igual ao definido entre aspas.
+Quando utilizamos rotas, significa que vamos ter outras páginas e consequentemente, diversos arquivos de componentes de páginas em nosso projeto. Por conta disso, precisamos deixar o diretório de nosso projeto organizado! Dentro da pasta src do nosso projeto, é onde fica nossos componentes e assim, vamos criar uma pasta chamada paginas. Dentro de paginas, teremos pastas com o nome das páginas e dentro delas, os componentes principais de cada página, como pode ser visualizado na Figura 2.
+
+Figura 2. Organização do diretório de componentes.
+#ParaTodosVerem
+Estrutura de pastas React com src expandido mostrando páginas Contato, Home e Sobre, cada uma com arquivo index.js. 
+Fonte: o autor, 2021.
+
+
+Perceba que na Figura 2, foi criada a pasta paginas e dentro dela, foram criadas outras 3 novas pastas: Home, Contato, e Sobre. Dentro de cada pasta das páginas, temos arquivos em JavaScript chamados index.js. Este arquivo representará o componente principal de cada página.
+
+Desta forma, nós já temos os diretórios e os arquivos para os componentes. Agora precisaremos criar as rotas. Estas rotas podem ser criadas em um novo arquivo chamado rotas.js.
+
+Neste arquivo, devemos importar os componentes BrowserRouter e Route do pacote React Router Dom, como pode ser visualizado na Figura 3.
+
+Figura 3. Importação dos componentes BrowserRouter e Route.
+#ParaTodosVerem
+Código JavaScript que importa BrowserRouter e Route da biblioteca react-router-dom para uso de rotas em React.
+Fonte: o autor, 2021.
+
+
+Também devemos importar os componentes que farão parte das nossas rotas, ou seja, os componentes das páginas que poderão ser acessadas (Figura 4).
+
+Figura 4. Importação dos componentes para as rotas.
+#ParaTodosVerem
+Código que importa os componentes Home, Contato e Sobre de pastas de páginas em um projeto React. 
+Fonte: o autor, 2021.
+
+
+Assim, já podemos criar o novo componente com as rotas dos componentes das páginas. Sendo assim, precisamos retornar o BrowserRouter e dentro dele o mapeamento dos componentes Route, que vão acessar os componentes das páginas importadas. A Figura 5 mostra como esse mapeamento de rotas fica.
+
+Figura 5. Mapeamento das rotas.
+#ParaTodosVerem
+Código React que define rotas com BrowserRouter para as páginas Home, Sobre e Contato.
+Fonte: o autor, 2021.
+
+
+Não se esqueça de no final, exportar o componente Rotas.
+
+Desta forma, criamos o nosso mapeamento de rotas para as nossas páginas e isso poderá ser utilizado por todo o nosso projeto. Mas antes, precisamos fazer com que este novo componente Rotas seja executado. Para isso, vamos precisar importá-lo em nosso primeiro componente do projeto e em seguida, utilizado no HTML deste primeiro componente. Se você manteve as nomenclaturas dos nomes de arquivos padrões que são utilizados ao criar um novo projeto React, o nome do primeiro componente se chama App.js. Neste arquivo, vamos importar o componente Rotas e utilizá-lo. A Figura 6 mostra como deverá ficar o componente App.js.
+
+Figura 6. Componente App.js.
+#ParaTodosVerem
+Código React que importa o componente Rotas e o renderiza dentro de App usando JSX. 
+Fonte: o autor, 2021.
+
+
+Assim, logo que for executado o projeto, irá criar o componente Rotas. Dentro deste componente temos o mapeamento das rotas dentro do BrowserRouter. A rota que possui o endereço raiz do projeto (apenas “/”), deverá ser o primeiro componente a ser executado.
+
+Para trocar de páginas dentro de um componente em tempo de execução, podemos criar o componente Link, que é um componente muito parecido com a tag de hiperlink <a>. Para isso, precisamos importar o componente Link do pacote React Router Dom e utilizá-lo para redirecionar a página. Este componente possui um atributo chamado to, que devemos colocar a rota que será redirecionado ao clicar nele, como pode ser visualizado na Figura 7.
+
+Figura 7. Componente Link.
+#ParaTodosVerem
+Código JSX que define um link para a rota “/sobre” com o texto clicável “Sobre”. 
+Fonte: o autor, 2021.
+
+
+Desta forma, já podemos criar uma aplicação em React mais completa, com diversas páginas e componentes.
+
+CONCLUSÃO
+Nesta unidade, foi apresentado o conceito de componentes em classe e estado do componente. Estes dois conceitos são essenciais para o andamento do nosso conteúdo e entendimento da construção de componentes mais avançados.
+
+REFERÊNCIAS
+[1] React. React – Uma biblioteca JavaScript para criar interfaces de usuário. Disponível em: https://pt-br.reactjs.org/. Acessado em: 12 de outubro de 2021.
+
+© PUCPR - Todos os direitos reservados.
+
+ | Privacidade e Proteção de Dados
+
+
+
+
+
+ATIVIDADE FORMATIVA
+Utilizando o pacote do React Router Dom aprendido durante a semana, crie uma nova aplicação em React com 4 páginas distintas:
+
+Home: deverá possuir um título para a página e dois botões, onde deverão redirecionar para as páginas de Contato e Sobre, respectivamente.
+Contato: deverá possuir um título para a página e um botão para retornar à página Home. Deverá possuir também, dados referentes ao contato do desenvolvedor, como: nome e e-mail.
+Sobre: deverá possuir um título para a página e um botão para retornar à página Home.Deverá possuir também, dados referentes ao desenvolvimento da aplicação, como: linguagem, bibliotecas utilizadas, frameworks, versões. etc.
+NotFound: deverá abrir esta página somente quando for executado uma URL não existente na aplicação.
+
+Marcar como concluído
+
+
+Feedback - Atividade Formativa
+Agora que você realizou o exercício, é hora de verificar se o componente foi criado da forma correta. Para isso, acesse os arquivos anexos.
+
+
+
+
+
+
+
+
+
+
+Marcar como concluído
+
+
+
+https://static.plataforma.grupoa.education/null/null/66434/0ba6ef59-ad26-404e-b09d-debb7cb22699.js
+
+https://static.plataforma.grupoa.education/null/null/66434/8f4d8a99-94a7-4361-bbec-64a3465386e5.js
+
+https://static.plataforma.grupoa.education/null/null/66434/8b7ad51c-9cc8-45ae-bd7b-a9aad64c23f7.js
+
+https://static.plataforma.grupoa.education/null/null/66434/3b03449e-d68a-4b8a-910e-985ff785851c.js
+
+https://static.plataforma.grupoa.education/null/null/66434/f3992510-02a0-498e-a3a1-a444ef94265f.css
+
+https://static.plataforma.grupoa.education/null/null/66434/c5b8c5be-9c58-45eb-a9ba-cc3e8e51ab85.js
+
+https://static.plataforma.grupoa.education/null/null/66434/b5bf19ab-e5e5-48b9-8b71-25789b8ee99f.js
+
+
+
+[Unidade 06] Firebase
+Nesta semana, será abordado o conceito de persistência em banco de dados NoSQL. Vamos utilizar o banco de dados Firestore, que faz parte da plataforma Firebase. Esta plataforma traz diversos recursos simples que podemos utilizar em React. Além de gravar dados neste banco de dados, também vamos trazer listas de dados já gravados e mostrá-los na página através de componentes React.
+
+
+
+Tecnologias Para Desenvolvimento Web
+UNIDADE 06
+Firebase
+Firebase
+Para a persistência dos dados, utilizaremos o banco de dados Firestore, que faz parte da plataforma Firebase. O Firebase refere-se a uma plataforma de back-end como serviço (BaaS) que oferece uma ampla gama de ferramentas e recursos para desenvolvimento móvel e da web [1]. É basicamente um programa de banco de dados NoSQL que segue um protocolo de documento JSON para armazenar dados do usuário.
+
+Primeiramente, precisamos ter uma conta do google. Sendo assim, crie uma conta do google gratuitamente e acesse a página https://firebase.google.com.
+
+Banco de Dados: Firestore
+Para a criação e configuração do Firebase, assista ao vídeo da semana.
+
+
+Após termos o Firebase com o banco de dados criado, agora precisaremos instalar os pacotes do Firebase em nosso projeto React. Sendo assim, execute no terminal o comando indicado na Figura 1, dentro da pasta do projeto React.
+
+Figura 1. Comando de instalação do Firebase.
+#ParaTodosVerem
+Comando npm para instalar a biblioteca firebase na versão 8.9.1 em um projeto JavaScript.
+Fonte: o autor, 2021.
+
+
+Após fazer a instalação, já podemos utilizar o Firebase em nosso projeto. Desta forma vamos criar um novo arquivo de conexão com a plataforma Firebase. Crie um arquivo chamado Firebase.js dentro da pasta src do seu projeto React. Este arquivo será responsável por fazer a conexão e importação dos pacotes necessários para a utilização do Firebase. Ele será nada mais do que um novo componente React, mas com métodos do Firebase.
+
+Desta forma, precisamos colocar todo o código necessário para a conexão e importação dentro do arquivo, como pode ser visto na Figura 2.
+
+Figura 2. Arquivo do Firebase.
+#ParaTodosVerem
+Código JavaScript que importa Firebase, define a configuração do projeto e inicializa a aplicação com initializeApp.
+Fonte: o autor, 2021.
+
+
+A linha 1 indica que o componente do Firebase para a conexão com a plataforma está sendo importado. Já a linha 2, é a importação do pacote do Firestore, que é o banco de dados que vamos utilizar, que faz parte do Firebase. Na linha 4, estamos criando uma nova variável e colocando dentro dela um objeto com os parâmetros necessários para a configuração do banco de dados Firestore que foi criado. A linha 15, serve para que façamos a inicialização do Firebase apenas uma única vez, sendo assim, caso esta variável tenha o app.length diferente de true, significa que é falso, ou seja, ainda não foi inicializado. Então neste caso, entraria dentro da condição e inicializaria o Firebase. Na próxima vez que algum componente importar este componente do Firebase, caso já esteja inicializado (igual a true), não precisará inicializar tudo novamente. Esta condição não é obrigatória, mas é uma boa prática, por uma questão de melhor desempenho.
+
+O Firestore é um banco de dados NoSQL orientado a documentos. Isso significa que temos dois tipos de dados em nosso banco de dados, documentos, que são objetos com os quais podemos trabalhar, e coleções que são contêineres que agrupam esses objetos. Com o Firestore podemos armazenar dados como coleções de documentos, que por sua vez, são fáceis de armazenar, pois são muito semelhantes aos da árvore JSON e também.
+
+Para gravar algum dado o Firestore, basta criarmos um novo método para a gravação e executarmos o código da Figura 3.
+
+Figura 3. Importação dos componentes para as rotas.
+#ParaTodosVerem
+Código Firebase que adiciona um documento com nome e sobrenome à coleção “usuario” no Firestore. 
+Fonte: o autor, 2021.
+
+
+Da forma como foi feito na Figura 3, estamos executando o Firestore, que está dentro do Firebase e acionando a coleção chamada “usuário”. Esta coleção ainda não existia, antes do código ser executado, mas não há problema! Com o Firebase, se estamos adicionando um novo documento a uma coleção inexistente, ela cria a coleção e adiciona os dados do documento nesta coleção. Após acessar então a coleção, é executado o método add(), que passa como parâmetro o objeto Javascript, com chave e valor dos dados que desejamos. Antes de executar este código, nosso banco de dados Firestore estava exatamente como é ilustrado na Figura 4, agora que o código foi executado, temos o que é ilustrado na Figura 5.
+
+Figura 4. Firestore vazio.
+#ParaTodosVerem
+Tela inicial do Firebase Firestore do projeto “banco-ead” com opção para iniciar uma coleção e sem dados cadastrados.
+Fonte: o autor, 2021.
+
+
+Figura 5. Firestore preenchido.
+#ParaTodosVerem
+Interface do Firebase Firestore exibindo a coleção “usuario” com um documento contendo nome “Eduardo” e sobrenome “Lino”. 
+Fonte: o autor, 2021.
+
+
+Perceba que temos a coleção usuario e dentro dela, o documento XT4tS838a6k9w4lva8Mn. Este valor é um índice que foi criado para este documento. No Firestore, podemos adicionar um índice manualmente (Figura 6) ou simplesmente não passar nada e fazer com que crie automaticamente um índice aleatório.
+
+Figura 6. Adicionando um índice manual.
+#ParaTodosVerem
+Código Firebase que define um documento com id “1” na coleção “usuario”, armazenando nome e sobrenome.
+Fonte: o autor, 2021.
+
+
+Desta forma, temos a nossa coleção usuario com dois documentos adicionados, conforme é ilustrado na Figura 7.
+
+Figura 7. Firestore com documentos.
+Fonte: o autor, 2021.
+Para listar os dados de uma coleção na página de seu projeto, devemos executar o método get(). Para isso, basta que execute o código ilustrado na Figura 8 e perceba que irá ocorrer um problema no console da página ao imprimir o retorno do método get(), como é demonstrado na Figura 9.
+
+Figura 8. Listando dados do Firestore.
+Fonte: o autor, 2021.
+Figura 9. Promisse.
+Fonte: o autor, 2021.
+Perceba que não está sendo mostrado no console da página os dados retornados da coleção usuario, conforme executamos em nosso código, isso se dá pelo fato de que o método get() é uma Promisse (Promessa).
+
+Uma Promisse é uma promessa de execução e não a execução em si! Ou seja, quando executamos uma Promisse o método está nos dizendo que promete executar esse código, ele apenas não sabe quando irá nos retornar o resultado. Também podemos dizer que uma Promisse é uma execução Assíncrona! Sendo assim, o código está sendo executado, mas foi feita execução e o processamento está lá dentro da plataforma do Firebase e ainda não deu tempo de terminar. Quando executamos o código para mostrar o retorno na tela, ela ainda era uma promessa e finalizada por completo. Sendo assim, precisamos de um método de retorno, também chamado de call-back. Esse método, garante que quando terminar a execução, teremos o retorno dentro dele. Esse método se chama then(). Ao colocar o método then() logo em seguida da execução do método get(), teremos o call-back da chamada e quando terminar, o retorno estará dentro da variável passada como parâmetro do método then().
+
+A Figura 10 ilustra o código da execução do método get() e com o retorno dentro do método then().
+
+Figura 10. Call-back da execução do método get().
+Fonte: o autor, 2021.
+Ainda assim, precisamos percorrer a variável retorno para que possamos obter os itens gravados na coleção usuario. Desta forma, podemos utilizar o laço de repetição forEach e percorrer todos os itens desta coleção, conforme é ilustrado na Figura 11.
+
+Figura 11. ForEach dos itens do Firestore.
+Fonte: o autor, 2021.
+Perceba que o objeto item possui um método chamado data(), necessário para obter os dados deste item. Sendo assim, precisamos executar este método e acessar o atributo publico nome, pois nome é o descritivo da chave que foi gravada no Firestore anteriormente (Figura 3 e 6).
+
+Da forma como estamos realizando o passo a passo para mostrar os dados, não é a forma como trabalhar nesta disciplina, pois os dados estão sendo mostrados no console e apesar do console ser muito útil e importante, vamos mostrá-los também, na página HTML de nossa aplicação React. Para isso, ao invés de mostrar os dados no console, precisamos colocar estes dados em um novo array, que deve estar na state do componente, conforme é ilustrado na Figura 12.
+
+Figura 12. Array no console do componente.
+Fonte: o autor, 2021.
+Após criar o array dados, já podemos colocar o retorno dos dados do Firestore, dentro deste array, conforme podemos ver na Figura 13.
+
+Figura 13. Lógica de inserção dos dados Firestore no array.
+Fonte: o autor, 2021.
+Agora já temos os dados que foram retornados do Firestore, dentro da variável dados da state do componente.  Como já sabemos, ao executar o método setState, o estado do componente irá ser atualizado, desta forma, precisamos fazer com que os dados deste array dados esteja no HTML do componente, conforme é ilustrado na Figura 14.
+
+Figura 14. Lógica de visualização dos dados do array no HTML.
+Fonte: o autor, 2021.
+Neste exemplo, o laço de repetição map possui uma variável como parâmetro, que é o item. Esta variável item, representa cada objeto que está inserido dentro do nosso array e para mostrá-los na página, precisamos também dentro do map, o método return, com o retorno do nosso HTML.
+
+Desta forma, conseguimos concluir a etapa de persistência em banco de dados NoSQL. Perceba que não foi necessário nenhum conhecimento em SQL ou MySQL para que conseguisse gravar ou obter os dados em banco de dados e mostrá-los em sua aplicação. Com a plataforma Firebase, podemos fazer isso de uma forma muito simples e rápida.
+
+CONCLUSÃO
+Nesta unidade, foi apresentado o conceito de componentes em classe e estado do componente. Estes dois conceitos são essenciais para o andamento do nosso conteúdo e entendimento da construção de componentes mais avançados.
+
+REFERÊNCIAS
+[1] React. React – Uma biblioteca JavaScript para criar interfaces de usuário. Disponível em: https://pt-br.reactjs.org/. Acessado em: 12 de outubro de 2021.
+
+© PUCPR - Todos os direitos reservados.
+
+ | Privacidade e Proteção de Dados
+
+
+
+
+
+ATIVIDADE FORMATIVA
+Construa uma nova aplicação em React que tenha inicialmente 2 inputs text e 2 botões na página.
+
+Input text 1: deverá ser um campo para cadastro do nome do usuário.
+Input text 2: deverá ser um campo para cadastro do sobrenome do usuário.
+Botão 1: Deverá gravar os valores dos 2 inputs no banco de dados Firestore.
+Botão 2: Deverá trazer todos os dados gravados no Firestore e mostrá-los na página do componente.
+
+Marcar como concluído
+
+
+
+
+
+
+
+
+Semana de Estudos 6 - de 15 de junho a 21 de junho
+
+GABARITO ATIVIDADE FORMATIVA
+Agora que você realizou o exercício, é hora de verificar se o componente foi criado da forma correta. Para isso, acesse os arquivos anexos.
+
+
+
+
+
+Marcar como concluído
+
+
+
+
+
+
+
+https://static.plataforma.grupoa.education/null/null/66434/9da5a0a8-26c6-4480-8061-d3ae48cfb565.js
+
+
+
+
+https://static.plataforma.grupoa.education/null/null/66434/23a92b7b-8ae5-4fda-936a-49a6604437d0.css
+
+
+https://static.plataforma.grupoa.education/null/null/66434/84dd5a91-afa3-4e05-b430-aff622530f24.js
+
+
+
+
+
+
+Semana 6- Webconferencia Encontro On-line - TDW
+ 18/06/2026 - 19:30 às 20:00
+Turma,
+
+em 18/06/2026, quinta-feira, às 19h30 ocorrerá o nosso 3º Encontro On-line. Caso vocês não possam participar a gravação ficará disponível após o encontro.
+
