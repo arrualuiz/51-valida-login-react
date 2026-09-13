@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# ValidaLogin
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Projeto acadêmico da disciplina **Tecnologias para Desenvolvimento Web** — PUCPR (`11100010566_20261_21`).
 
-## Available Scripts
+Aplicação React desenvolvida para demonstrar a construção de uma tela de login e a validação de dados informados pelo usuário. O projeto corresponde à Atividade Somativa 1 da disciplina e foi elaborado como exercício prático de componentes, estado e eventos no front-end.
 
-In the project directory, you can run:
+## O que o sistema faz
 
-### `npm start`
+A interface apresenta um formulário simples com:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- campo de e-mail;
+- campo de senha;
+- botão **Acessar**;
+- área de feedback para informar o resultado da tentativa de login.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Ao selecionar **Acessar**, a aplicação compara os dados preenchidos com as credenciais de demonstração configuradas no componente. Quando os dois valores correspondem, ela mostra `Acessado com sucesso!`; caso contrário, mostra `Usuário ou senha incorretos!`.
 
-### `npm test`
+Para testar o fluxo positivo, use:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```text
+E-mail: eduardo.lino@pucpr.br
+Senha: 123456
+```
 
-### `npm run build`
+Essas credenciais existem somente para fins didáticos. Esta versão não possui autenticação real, cadastro de usuários nem conexão com banco de dados.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Como foi elaborado
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+O sistema foi construído como um componente de classe em React. O estado inicial armazena `email`, `senha` e `mensagem`. Cada campo é controlado: ao digitar, o evento `onChange` chama um método que atualiza o estado com `setState`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+O botão aciona o método `validarLogin`, que verifica se e-mail e senha correspondem aos valores definidos para o exercício. O resultado da verificação atualiza `mensagem`, e o React renderiza automaticamente o feedback na tela. Assim, o projeto exercita o ciclo completo de interação: entrada de dados, tratamento de evento, alteração de estado e atualização da interface.
 
-### `npm run eject`
+## Mecanismos e tecnologias
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+| Mecanismo | Aplicação no projeto |
+| --- | --- |
+| React | Estrutura da interface em um componente reutilizável. |
+| Componente de classe | Organização do estado e dos métodos de interação em `App.js`. |
+| Estado (`state`) | Armazenamento dos valores digitados e da mensagem de retorno. |
+| Eventos (`onChange` e `onClick`) | Captura da digitação e execução da validação. |
+| Inputs controlados | Os campos exibem sempre os valores mantidos pelo estado do React. |
+| CSS | Estilização da interface em `App.css` e `index.css`. |
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Estrutura principal
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```text
+.
+├── App.js        # Componente da tela e lógica de validação
+├── App.css       # Estilos do componente
+├── index.js      # Ponto de entrada da aplicação React
+├── index.css     # Estilos globais
+├── package.json  # Dependências e comandos do projeto
+└── public/       # Arquivos públicos da aplicação
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+> Observação: o repositório contém dependências como Firebase e React Router DOM para estudos posteriores, mas elas não são utilizadas pela implementação atual da Atividade Somativa 1.
 
-## Learn More
+## Como executar
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Pré-requisitos
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Node.js 18 ou superior;
+- npm.
 
-### Code Splitting
+### Instalação e execução
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+git clone https://github.com/arrualuiz/51-PUCPR_TecnologiaParaDesenvolvimentoWeb.git
+cd 51-PUCPR_TecnologiaParaDesenvolvimentoWeb
+npm install
+npm start
+```
 
-### Analyzing the Bundle Size
+Depois, abra [http://localhost:3000](http://localhost:3000) no navegador.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Comandos disponíveis
 
-### Making a Progressive Web App
+```bash
+npm start     # inicia o ambiente de desenvolvimento
+npm test      # executa os testes configurados pelo Create React App
+npm run build # gera a versão otimizada para produção
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Contexto acadêmico
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+O projeto atende ao enunciado da Atividade Somativa 1 de **Tecnologias para Desenvolvimento Web**: criar uma aplicação React com título, campos de e-mail e senha, botão de validação e mensagem de retorno conforme as credenciais informadas. A implementação prioriza a compreensão dos fundamentos de React antes da evolução para recursos como rotas, autenticação com Firebase e persistência de dados.
